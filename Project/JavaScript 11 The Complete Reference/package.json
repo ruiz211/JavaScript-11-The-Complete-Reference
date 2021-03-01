@@ -1,0 +1,8 @@
+{
+  "name": "JavaScript 11 The Complete Reference",
+  "version": "1.0.0",
+  "dependencies": {
+    "mathjs": "^8.0.1"
+  },
+  "devDependencies": {}
+}
