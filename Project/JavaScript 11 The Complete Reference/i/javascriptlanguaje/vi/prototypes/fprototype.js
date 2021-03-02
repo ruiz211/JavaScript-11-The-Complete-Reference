@@ -1,8 +1,6 @@
 "use strict";
 
-let animal = {
-    eats: true
-};
+let animal = {eats: true};
 
 function Rabbit(name) {
     this.name = name;
@@ -10,6 +8,5 @@ function Rabbit(name) {
 
 Rabbit.prototype = animal;
 
-let rabbit = new Rabbit("White Rabbit"); //  rabbit.__proto__ == animal
-
-alert(rabbit.eats); // true
+let rabbit = new Rabbit("Charles");
+console.log(rabbit.eats);
